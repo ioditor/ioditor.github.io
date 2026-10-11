@@ -1,0 +1,16 @@
+{{- $key := .Get "key" -}}
+{{- $title := .Get "title" -}}
+{{- $shot := index (partial "utils/hugo-compat/site-data.html" .).screenshots $key -}}
+<figure class="io-screenshot">
+  {{- with $shot.src }}
+  <img src="{{ . | relURL }}" alt="{{ $shot.alt | default $title }}" loading="lazy" decoding="async" width="1600" height="900">
+  {{- else }}
+  <div class="io-screenshot-placeholder" role="img" aria-label="Место для реального скриншота: {{ $title }}">
+    <span class="io-screenshot-mark" aria-hidden="true">iO</span>
+    <span>{{ $title }}</span>
+    <span class="io-screenshot-note">Здесь появится реальный скриншот приложения</span>
+  </div>
+  {{- end }}
+  <figcaption>{{ $title }}</figcaption>
+</figure>
+
