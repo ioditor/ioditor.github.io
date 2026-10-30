@@ -1,23 +1,9 @@
-# iO ditor — статический сайт
+# iO ecosystem — migration-ready v2
 
-`index.html` — EN, `ru/index.html` — RU, `styles.css` — общий стиль, `assets/` — иллюстрация и SVG из исходного сайта. JavaScript и сборка не требуются.
+Buildless static GitHub Pages root for ioditor.github.io. Copy this folder's contents, including .github and .nojekyll, into a clean repository checkout. No Hugo, package installation or build is required.
 
-## Публикация
+Preview: `python -m http.server 8000 --bind 127.0.0.1`. Read MIGRATION.md before replacing files, PRE-PUSH-CHECKLIST.md before committing, and MIGRATION-REPORT.md for validation and limits.
 
-1. Замените содержимое репозитория `ioditor/ioditor.github.io` содержимым этой папки, включая `.github` и `.nojekyll`. Именно замените: удалите старые Hugo-файлы, `_vendor`, `content`, `layouts`, Go-файлы и прежние workflows. Не накладывайте архив поверх старого дерева.
-2. В Settings → Pages выберите Source: GitHub Actions.
-3. Отправьте изменения в `main` или запустите Publish static website вручную. Workflow копирует только готовые публичные файлы в Pages artifact и публикует их без генератора.
+Downloads remain Coming soon / Скоро. Maintain data/downloads.json and matching EN/RU static HTML together. RELEASES-SETUP.md describes the proposed shared `ioditor/io-releases` hub (unverified, not created). Never use shared /releases/latest for product buttons. SHA256SUMS.txt is required for future releases.
 
-Основной адрес: https://ioditor.github.io/ ; русский: https://ioditor.github.io/ru/ . Относительные ссылки на стили, изображения и языковые версии поддерживают также размещение под префиксом проекта. При переносе на другой домен обновите абсолютные `hreflang` в обеих страницах.
-
-## Обновление
-
-Редактируйте тексты в двух HTML-файлах, стили — в `styles.css`. Иллюстрация: `assets/p2p-companion.png` (без изменений исходного изображения). Иконки извлечены из пакета исходного сайта, см. `ASSET-NOTICES.md`.
-
-Загрузки пока недоступны: Windows и Linux показаны обычным текстом Coming soon / Скоро в Hero и Download. Когда появятся сборки, замените статусы проверенными ссылками в обеих языковых версиях.
-
-После Local by design добавлен компактный блок истории файлов и MCP. Для MCP повторно используется assets/think.svg; assets/history.svg добавлен в том же контурном стиле.
-
-Локальный просмотр: из этой папки выполните `python -m http.server 8000`, откройте http://localhost:8000/ и http://localhost:8000/ru/ .
-
-Старые страницы документации не включены. Если у вас есть внешние ссылки на конкретные старые адреса, добавьте для них индивидуальные статические перенаправления. Встроенный репозиторий Zero не входит в этот ZIP; ссылка на него сохраняется точно как https://ioditor.github.io/zero.github.io/ .
+No push or publication was performed. Keep old Zero/Paper repositories and unknown historical assets until root rollout is verified. Asset provenance remains in ASSET-NOTICES.md.

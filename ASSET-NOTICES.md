@@ -1,15 +1,11 @@
-# Asset attribution
+# Asset notices
 
-The four outlined SVG icons are Heroicons v1 icons by Tailwind Labs, extracted from the Hextra icon data bundled in the supplied repository. Heroicons is distributed under the MIT License.
+Assets were reused from the four exact user attachments for this local iO iteration. This file does not assign a new license to product artwork or screenshots.
 
-Copyright (c) Tailwind Labs, Inc.
+- Zero: original PNG, PDF, .zero examples and booklet materials; local WOFF2 specimen fonts. See assets/zero/FONT-RIGHTS.md, font-manifest.json, material-manifest.json and assets/zero/examples/FONT-NOTICES.md / FONT-AUDIT.json. The supplied rights notice describes the owner's confirmation for specimen hosting; it is not a general open font license. Flow, Still and Mono are used only in Zero specimen blocks, never as global website fonts. Original asset bytes and notices are retained.
+- iO ditor: outlined icons, favicon and user-supplied P2P/Companion illustration. The original MIT notice and Tailwind Labs attribution are retained verbatim in assets/ioditor/ASSET-NOTICES.md. That notice contains historical source provenance, not a website dependency.
+- Journal: supplied real EN/RU application screenshots and original product SVG assets. No additional asset license was included in its source archive.
+- Paper: supplied real EN/RU application screenshots and original favicon. No additional asset license was included in its source archive.
+- assets/common/favicon.svg: simple iO text mark made for this iteration using system typography.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-The favicon is retained from the supplied repository. The P2P / Companion illustration was supplied by the user.
-
-The history.svg icon is a new simple outlined drawing created for this iteration. The MCP section reuses think.svg.
+No external font service, analytics, image CDN or third-party runtime is used. Font notices and MIT terms are documentation, not product licensing copy.

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "products": {
+    "ioditor": {
+      "version": null,
+      "tag": null,
+      "windows": {
+        "status": "coming-soon",
+        "url": null,
+        "asset": null,
+        "sha256": null
+      },
+      "linux": {
+        "status": "coming-soon",
+        "url": null,
+        "asset": null,
+        "sha256": null
+      }
+    },
+    "zero": {
+      "version": null,
+      "tag": null,
+      "windows": {
+        "status": "coming-soon",
+        "url": null,
+        "asset": null,
+        "sha256": null
+      }
+    },
+    "journal": {
+      "version": null,
+      "tag": null,
+      "windows": {
+        "status": "coming-soon",
+        "url": null,
+        "asset": null,
+        "sha256": null
+      }
+    },
+    "paper": {
+      "version": null,
+      "tag": null,
+      "windows": {
+        "status": "coming-soon",
+        "url": null,
+        "asset": null,
+        "sha256": null
+      }
+    }
+  }
+}
